@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>VIT-AP</title>
+    <style>
+        .footer {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            width: 100%;
+            background: #10182F;
+            border-radius: 6px;
+            top: 2050px;
+
+        }
+
+        .footer .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3.5rem;
+            padding: 60px;
+        }
+
+        .footer-row .footer-col h4 {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .footer-col .links {
+            margin-top: 20px;
+        }
+
+        .footer-col .links li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .footer-col .links li a {
+            text-decoration: none;
+            color: #bfbfbf;
+        }
+
+        .footer-col .links li a:hover {
+            color: #fff;
+        }
+
+        .footer-col p {
+            margin: 20px 0;
+            color: #bfbfbf;
+            max-width: 300px;
+        }
+
+        .footer-col form {
+            display: flex;
+            gap: 5px;
+        }
+
+        .footer-col input {
+            height: 40px;
+            border-radius: 6px;
+            background: none;
+            width: 100%;
+            outline: none;
+            border: 1px solid #7489C6;
+            caret-color: #fff;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .footer-col input::placeholder {
+            color: #ccc;
+        }
+
+        .footer-col form button {
+            background: #fff;
+            outline: none;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: 0.2s ease;
+        }
+
+        .footer-col form button:hover {
+            background: #cecccc;
+        }
+
+        .footer-col .icons {
+            display: flex;
+            margin-top: 30px;
+            gap: 30px;
+            cursor: pointer;
+        }
+
+        .footer-col .icons i {
+            color: #afb6c7;
+        }
+
+        .footer-col .icons i:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                transform: none;
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .footer .footer-row {
+                padding: 20px;
+                gap: 1rem;
+            }
+
+            .footer-col form {
+                display: block;
+            }
+
+            .footer-col form :where(input, button) {
+                width: 100%;
+            }
+
+            .footer-col form button {
+                margin: 10px 0 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!----Header---->
+    <section class="course-header">
+        <nav>
+            <a href="Home.html"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png"
+                    alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Admissions.html">Admissions</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Affidavit.html">Affidavit</a></li>
+                                <li><a href="Stars.html">Stars</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Academics.html">Academics</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Alumni.html">Alumni</a></li>
+                                <li><a href="Academic Calendar.html">Academic Calendar</a></li>
+                                <li><a href="Engineering Clinics.html">Engineering Clinics</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Career Development Center.html">Career Development Center</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Super Dream Offer.html">Super Dream Offer</a></li>
+                                <li><a href="Dream Offers.html">Dream Offers</a></li>
+                                <li><a href="Internships.html">Internships</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus Life.html">Campus Life</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Anti-Ragging Committee.html">Anti-Ragging Committee</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Vison and Missions.html">Vison and Missions</a></li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="How to Reach Vit ap.html">How to Reach Vit AP</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="about-box">
+            <h1>Dream Offer's</h1>
+        </div>
+    </section>
+
+
+    <section class="blog">
+        <div class="blog-left">
+            <img src="https://vitap.ac.in/wp-content/uploads/2023/06/dream-offer.jpg" alt="Blog Image">
+            <h2>Dream Offers</h2>
+            <br>
+            <p>In Dream placement offer, 3836 students are presented with offers with Cost of Company (CTC) of 5.5
+                Lakhs and above per annum. More than 386 companies have been giving this placement offer to enable
+                students to have multiple choices in the dream placement category. They can choose among various
+                streams including IT Services, product consulting, banking, Core Engineering companies among other
+                options. Such placement opportunities allow the students to freely select the offer that is present
+                in their area of interest.</p>
+            <br>
+            <p>VIT is a proud holder for the Limca book of records for the highest number of recruitments through
+                placements done from a single institution by IT sector companies for 7 years. Cognizant, TATA
+                Consultancy Services, Accenture, Wipro, and Infosys are a few names in the IT sector that have their
+                placement bases in VIT. These companies have had about 8,000 placements in the year 2016 and the
+                number is increasing every year.</p>
+            <br>
+            <p>Also, the Career Development Centre in VIT is responsible for internships for students. Apart from
+                placements for students in their final year, the Placement Cell provides international internships
+                with leading MNCs across the globe. An average of 10 students every year get an opportunity to get
+                internships in USA, UK, Ireland, Japan, China, Israel, Taiwan, UAE, Kenya, Germany, Nigeria and
+                Italy. These internship programs help the students to earn a stipend, in addition to hands-on
+                experience and practical application of everything they have learned. While VIT ensures that all its
+                students obtain placement in leading MNCs, it also makes sure that they get internships and have
+                valuable work experience.</p>
+            <br>
+            <p>The placement season is now growing higher as our students are getting placed with Dream companies.
+                The list of final year students who have bagged their Dream offers is listed below. We are certain
+                that this upward trend with placements will scale higher and our students shall be successfully
+                placed.</p>
+            <br>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <section class="facilities">
+        <div class="facility-container">
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2022/12/PAT-Poster_103.jpg" alt="">
+            </div>
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2022/11/PowerSchool_L-Saikalyan.jpg" alt="">
+            </div>
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2022/11/Delotte_S-Jayanth.jpg" alt="">
+            </div>
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2022/11/Continental_V-Akhil.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4> VIT CONNECT</h4>
+                <ul class="links">
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Login</a></li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Parent Login</a>
+                    </li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Alumni Login
+                        </a></li>
+                    <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="How to Reach Vit ap.html" target="_blank">How to Reach Vit ap</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Qick Links</h4>
+                <ul class="links">
+                    <li><a href="Career Development Center.html" target="_blank">Career Development Center</a></li>
+                    <li><a href="Admissions.html" target="_blank">Admissions</a></li>
+                    <li><a href="Alumni.html" target="_blank">Alumni</a></li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus LIfe.html" target="_blank">Campus LIfe</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>OUR CAMPUS</h4>
+                <ul class="links">
+                    <li><a href="https://vit.ac.in/" target="_blank">VIT VELLORE</a></li>
+                    <li><a href="https://chennai.vit.ac.in/" target="_blank">VIT CHENNAI</a></li>
+                    <li><a href="https://vitap.ac.in/" target="_blank">VIT AP</a></li>
+                    <li><a href="https://vitbhopal.ac.in/" target="_blank">VIT BHOPAL</a></li>
+                    <li><a href="https://vitbangalore.in/" target="_blank">VIT BANGALORE</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4> Leave a Message</h4><br>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <a href="https://instagram.com/vitap.university?igshid=MzRlODBiNWFlZA=="><i
+                            class="fa-brands fa-instagram" target="_blank"></i></a>
+                    <a href="https://x.com/VITAPuniversity?t=1Yx0MaMwqUNyiUm2VcXp1w&s=08" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/vitap.university/" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/school/vitap-university/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@VITAP" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

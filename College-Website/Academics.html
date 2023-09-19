@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>VIT-AP</title>
+    <style>
+
+        .footer {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            width: 100%;
+            background: #10182F;
+            border-radius: 6px;
+            top: 2680px;
+
+        }
+
+        .footer .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3.5rem;
+            padding: 60px;
+        }
+
+        .footer-row .footer-col h4 {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .footer-col .links {
+            margin-top: 20px;
+        }
+
+        .footer-col .links li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .footer-col .links li a {
+            text-decoration: none;
+            color: #bfbfbf;
+        }
+
+        .footer-col .links li a:hover {
+            color: #fff;
+        }
+
+        .footer-col p {
+            margin: 20px 0;
+            color: #bfbfbf;
+            max-width: 300px;
+        }
+
+        .footer-col form {
+            display: flex;
+            gap: 5px;
+        }
+
+        .footer-col input {
+            height: 40px;
+            border-radius: 6px;
+            background: none;
+            width: 100%;
+            outline: none;
+            border: 1px solid #7489C6;
+            caret-color: #fff;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .footer-col input::placeholder {
+            color: #ccc;
+        }
+
+        .footer-col form button {
+            background: #fff;
+            outline: none;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: 0.2s ease;
+        }
+
+        .footer-col form button:hover {
+            background: #cecccc;
+        }
+
+        .footer-col .icons {
+            display: flex;
+            margin-top: 30px;
+            gap: 30px;
+            cursor: pointer;
+        }
+
+        .footer-col .icons i {
+            color: #afb6c7;
+        }
+
+        .footer-col .icons i:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                transform: none;
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .footer .footer-row {
+                padding: 20px;
+                gap: 1rem;
+            }
+
+            .footer-col form {
+                display: block;
+            }
+
+            .footer-col form :where(input, button) {
+                width: 100%;
+            }
+
+            .footer-col form button {
+                margin: 10px 0 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+      <!----Header---->
+      <section class="course-header">
+        <nav>
+            <a href="Home.html"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png"
+                    alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Admissions.html">Admissions</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Affidavit.html">Affidavit</a></li>
+                                <li><a href="Stars.html">Stars</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Academics.html">Academics</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Alumni.html">Alumni</a></li>
+                                <li><a href="Academic Calendar.html">Academic Calendar</a></li>
+                                <li><a href="Engineering Clinics.html">Engineering Clinics</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Career Development Center.html">Career Development Center</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Super Dream Offer.html">Super Dream Offer</a></li>
+                                <li><a href="Dream Offers.html">Dream Offers</a></li>
+                                <li><a href="Internships.html">Internships</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus Life.html">Campus Life</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Anti-Ragging Committee.html">Anti-Ragging Committee</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Vison and Missions.html">Vison and Missions</a></li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="How to Reach Vit ap.html">How to Reach Vit AP</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="about-box">
+            <h1>Academic's</h1>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>At VIT-AP the entire teaching-learning process is concentrated around six schools. A student registers to a
+            programme in one of the schools according to his or her interest. A research center is also part of the
+            schools, that encourages students to participate in exciting research projects amongst these departments.
+        </p>
+        <br>
+        <p>At VIT-AP, all schools have been carefully designed with the focus on curricular and co-curricular
+            activities, industry requirements, and career. The emphasis is on autonomous learning to enable the students
+            to chart their own course. This is achieved through a fully flexible credit system in which students select
+            courses, faculty, and timings to befit their interests and aspirations. The pedagogy and design of
+            curriculum for various programmes was carried out with valuable inputs from industry and academic experts.
+            Each school is managed by experienced and caring faculty members who prepare students for a bright career,
+            higher studies and research.</p>
+        <br>
+        <p>A unique mentoring scheme is in place at our institute, where, a faculty member is assigned to a group of
+            students as a mentor. The mentor not only helps a student in making informed decisions about his academic
+            progress but also acts as a local guardian. The students at VIT-AP are part of a digitized campus with
+            e-wallet, Wifi, digital library, smart classrooms and much more. At present, VIT-AP has the following
+            schools for students.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>School of Computer Science & Engineering(SCOPE)</h3>
+                <br>
+                <p>The Department of Computer Science and Engineering was established in 2017. It has become the School
+                    of Computer Science and Engineering (SCOPE) in January 2019. At present, the School is headed by Dr.
+                    Sudha S V with 3565 students, 79 faculty and 94 research scholars. The School has qualified and
+                    committed faculty members who offer impressive instruction in a variety of modes, exploring
+                    experiential learning approaches and new pedagogical methods in order to provide proper learning to
+                    students. The school provides the necessary infrastructure, hardware, and software to support the
+                    faculty for their continuous learning and research.</p>
+            </div>
+            <div class="course-col">
+                <h3>School of Electronics Engineering (SENSE)</h3>
+                <br>
+                <p>The Department of Electronics and Communication Engineering was established in 2017. It has become
+                    the School of Electronics Engineering (SENSE) in January 2019. At present, the School is headed by
+                    Dr. Umakanta Nanda with 859 students, 63 faculty and 144 research scholars. The School has qualified
+                    and committed faculty members who offer impressive instruction in a variety of modes, exploring
+                    experiential learning approaches and new pedagogical methods in order to provide proper learning to
+                    students. The school provides the necessary infrastructure, hardware, and software to support the
+                    faculty for their continuous learning and research.</p>
+            </div>
+            <div class="course-col">
+                <h3>School of Mechanical Engineering(SMEC)</h3>
+                <br>
+                <p>The School of Mechanical Engineering is among the founding schools of VIT-AP UNIVERSITY at Amaravati
+                    to produce high quality engineers in the field of Mechanical Engineering to cater the demands of the
+                    nation to move at par with the highly industrialized and technologically advanced modern world.The
+                    school aims to produce quality professionals in Mechanical Engineering to compete globally by
+                    carrying out the basics and applied research in emerging areas by forging strong industry –
+                    institute interaction. with the academic curriculum, the students are encouraged to be a part of
+                    various clubs for the overall personality development.</p>
+            </div>
+        </div>
+    </section>
+    <section class="course1">
+        <div class="row">
+            <div class="course-col">
+                <h3>School of Advanced Sciences (SAS)</h3>
+                <br>
+                <p>The School of Advanced Sciences is one of the seven Schools of VIT-AP University and it houses the
+                    Departments of Mathematics, Physics, and Chemistry. Here students are taught how to think critically
+                    through project-based learning and not merely what to think. Students are encouraged to question,
+                    explore, and research throughout their studies, ranging across the various discipline of sciences.
+                    Our school aims at providing a solid foundation in natural Sciences, projecting the recent
+                    scientific and technological developments to the graduate, postgraduate, and Ph.D students. We
+                    aspire to be a valuable contributor towards the nation’s growth by producing highly skilled
+                    professionals and by engaging in cutting-edge research. SAS earnestly pursues a vision of providing
+                    local, regional, national and International leadership in the research and technology development.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>SCHOOL OF BUSINESS (VSB)</h3>
+                <br>
+                <p>The VIT-AP School of Business (VSB) is launched with the vision of preparing the future leaders of
+                    India to face the emerging crises-opportunities. With management knowledge and leadership being
+                    integral parts of the modern age, VSB programmes are designed to enhance leadership competencies,
+                    social and ecological sensitivity and systems thinking of the participants. The meticulously
+                    designed programmes place a special emphasis on incorporating technology into the curriculum with an
+                    objective of enabling students to be effective decision-makers under techno-socio-economic
+                    uncertainty. At VSB, students are motivated and equipped to become leaders in order to play a
+                    critical role in the evolution of new business models and organization forms, alternate governance
+                    structures in business, government, education and health amongst others.</p>
+            </div>
+            <div class="course-col">
+                <h3>School of Social Sciences and Humanities (VISH)</h3>
+                <br>
+                <p>The VIT-AP School of Social Sciences and Humanities (VISH) has evolved into an independent School
+                    that combines the Department of Languages and the existing courses of Social Sciences that have been
+                    present at the university since its inception in 2017. The VIT-AP School of Social Sciences and
+                    Humanities (VISH) focuses on providing students with language skills and a broad perspective on the
+                    evolution of culture, society, politics, and economics. Apart from the production and dissemination
+                    of the disciplinary concerns the faculty of the School also provide students with a well-rounded
+                    education that would complement other disciplines of study offered at the University resulting in
+                    individuals who are capable of applying new knowledge and solving problems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4> VIT CONNECT</h4>
+                <ul class="links">
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Login</a></li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Parent Login</a>
+                    </li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Alumni Login
+                        </a></li>
+                    <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="How to Reach Vit ap.html" target="_blank">How to Reach Vit ap</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Qick Links</h4>
+                <ul class="links">
+                    <li><a href="Career Development Center.html" target="_blank">Career Development Center</a></li>
+                    <li><a href="Admissions.html" target="_blank">Admissions</a></li>
+                    <li><a href="Alumni.html" target="_blank">Alumni</a></li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus LIfe.html" target="_blank">Campus LIfe</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>OUR CAMPUS</h4>
+                <ul class="links">
+                    <li><a href="https://vit.ac.in/" target="_blank">VIT VELLORE</a></li>
+                    <li><a href="https://chennai.vit.ac.in/" target="_blank">VIT CHENNAI</a></li>
+                    <li><a href="https://vitap.ac.in/" target="_blank">VIT AP</a></li>
+                    <li><a href="https://vitbhopal.ac.in/" target="_blank">VIT BHOPAL</a></li>
+                    <li><a href="https://vitbangalore.in/" target="_blank">VIT BANGALORE</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4> Leave a Message</h4><br>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <a href="https://instagram.com/vitap.university?igshid=MzRlODBiNWFlZA=="><i
+                            class="fa-brands fa-instagram" target="_blank"></i></a>
+                    <a href="https://x.com/VITAPuniversity?t=1Yx0MaMwqUNyiUm2VcXp1w&s=08" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/vitap.university/" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/school/vitap-university/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@VITAP" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png"
+        type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+
+    <title>VIT-AP</title>
+    <style>
+        .footer {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            width: 100%;
+            background: #10182F;
+            border-radius: 6px;
+            top: 2900px;
+
+        }
+
+        .footer .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3.5rem;
+            padding: 60px;
+        }
+
+        .footer-row .footer-col h4 {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .footer-col .links {
+            margin-top: 20px;
+        }
+
+        .footer-col .links li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .footer-col .links li a {
+            text-decoration: none;
+            color: #bfbfbf;
+        }
+
+        .footer-col .links li a:hover {
+            color: #fff;
+        }
+
+        .footer-col p {
+            margin: 20px 0;
+            color: #bfbfbf;
+            max-width: 300px;
+        }
+
+        .footer-col form {
+            display: flex;
+            gap: 5px;
+        }
+
+        .footer-col input {
+            height: 40px;
+            border-radius: 6px;
+            background: none;
+            width: 100%;
+            outline: none;
+            border: 1px solid #7489C6;
+            caret-color: #fff;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .footer-col input::placeholder {
+            color: #ccc;
+        }
+
+        .footer-col form button {
+            background: #fff;
+            outline: none;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: 0.2s ease;
+        }
+
+        .footer-col form button:hover {
+            background: #cecccc;
+        }
+
+        .footer-col .icons {
+            display: flex;
+            margin-top: 30px;
+            gap: 30px;
+            cursor: pointer;
+        }
+
+        .footer-col .icons i {
+            color: #afb6c7;
+        }
+
+        .footer-col .icons i:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                transform: none;
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .footer .footer-row {
+                padding: 20px;
+                gap: 1rem;
+            }
+
+            .footer-col form {
+                display: block;
+            }
+
+            .footer-col form :where(input, button) {
+                width: 100%;
+            }
+
+            .footer-col form button {
+                margin: 10px 0 0 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!----Header---->
+    <section class="header">
+        <nav>
+            <a href="Home.html"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png"
+                    alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Admissions.html">Admissions</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Affidavit.html">Affidavit</a></li>
+                                <li><a href="STARS.html">Stars</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Academics.html">Academics</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Alumni.html">Alumni</a></li>
+                                <li><a href="Academic Calendar.html">Academic Calendar</a></li>
+                                <li><a href="Engineering Clinics.html">Engineering Clinics</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Career Development Center.html">Career Development Center</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Super Dream Offer.html">Super Dream Offer</a></li>
+                                <li><a href="Dream Offers.html">Dream Offers</a></li>
+                                <li><a href="Internships.html">Internships</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus Life.html">Campus Life</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Anti-Ragging Committee.html">Anti-Ragging Committee</a></li>
+                           
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Vison and Missions.html">Vison and Missions</a></li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="How to Reach Vit ap.html">How to Reach Vit AP</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>WELCOME TO VIT Amaravati</h1>
+            <p>VIT Amaravati, one of the leading engineering colleges in India, offers the best exposure in terms of
+                world
+                class education, internship opportunities, top-notch placement opportunities, and infrastructural
+                amenities. We ensure that the graduates walk out with many skills and learning. We provide a domain for
+                polishing technical mastery and interpretive and analytical skills, which is the need of the hour. VIT
+                Amaravati, fosters principles and ensures to achieve the mission and vision to enrich the learning
+                process
+                for the future leaders of our society.</p>
+            <a href="https://vitap.ac.in/" target="_blank" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!----Course---->
+    <section class="course">
+        <h1>Programmes We Offer</h1>
+        <p>At VIT-AP, all programmes have been carefully designed with focus on curricular and co-curricular activities,
+            industry requirements, and career. The emphasis is on autonomous learning to enable the students chart their
+            own course. This is achieved through a fully flexible credit system in which students select courses,
+            faculty, and timings to befit their interests and aspirations. The pedagogy and design of curriculum for
+            various programmes was carried out with valuable inputs from industry and academic experts. Each programme
+            is managed by experienced and caring faculty members who prepare students for a bright career, higher
+            studies and research.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>B.Tech CSE - (Computer Science and Engineering)</h3>
+                <p>The Computer Science and Engineering programme at VIT-AP is a unique blend of hardware and software,
+                    allowing students to gain knowledge about the concepts that enable many of today’s fundamental
+                    technologies, including Wireless Communication and the Internet of Things.</p>
+            </div>
+            <div class="course-col">
+                <h3>M.Tech - (5 year Integrated) Software Engineering</h3>
+                <p>The Integrated M.Tech. (Software Engineering) programme is a 5 year integrated course. It is
+                    specifically designed to meet the needs of IT industry in the areas of software engineering design
+                    and implementation.The initial level courses provide students with a core foundation in programming,
+                    mathematical reasoning, physics and circuit design.</p>
+            </div>
+            <div class="course-col">
+                <h3>Phd - (Law)</h3>
+                <br>
+                <p>The Ph.D. programme at VIT-AP School of Law (VSL) is designed to prepare the graduates for careers as
+                    legal scholars and teachers through a doctoral programme aimed at the production of a substantial
+                    body of academic research and writing under the close supervision of expert faculty members.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----Campus---->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <div class="row">
+            <div class="campus-col">
+                <img src="https://vit.ac.in/files/icnan2016/img/about%20VIT/img-2.jpg" alt="Vellore Campus">
+                <div class="layer">
+                    <h3>Vellore</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="https://images.shiksha.com/mediadata/images/1509707292phpW0MYGJ.jpeg" alt="Chennai Campus">
+                <div class="layer">
+                    <h3>Chennai</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="https://cache.careers360.mobi/media/article_images/2022/7/9/VIT-Bhopal-Academic-Block.jpg"
+                    alt="Bhopal Campus">
+                <div class="layer">
+                    <h3>Bhopal</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----Testimonials---->
+    <section class="testimonials">
+        <h1>What Our Students Says?</h1>
+        <p>Our current international students and alumni are strong and valued ambassadors of the University. Read about
+            their experience of studying here, in their own words. And if you want join our student community
+            conversation, simply follow our social media on the link below!</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="User1">
+                <div>
+                    <p>A very inspiring experience. A place for education with an environment that will definitely build
+                        passion and love for education in students and also boost their personality.</p>
+                    <h3>Lata</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="User2">
+                <div>
+                    <p>The vision of the people behind,in building of this university is truly appreciated.I heartfully
+                        thank each and every individual accociated with the building, running and maintaining of this
+                        beautiful place</p>
+                    <h3>Rajendra</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Call For Action---->
+    <section class="cfa">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="Contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4> VIT CONNECT</h4>
+                <ul class="links">
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Login</a></li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Parent Login</a>
+                    </li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Alumni Login
+                        </a></li>
+                    <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="How to Reach Vit ap.html" target="_blank">How to Reach Vit ap</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Qick Links</h4>
+                <ul class="links">
+                    <li><a href="Career Development Center.html" target="_blank">Career Development Center</a></li>
+                    <li><a href="Admissions.html" target="_blank">Admissions</a></li>
+                    <li><a href="Alumni.html" target="_blank">Alumni</a></li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus LIfe.html" target="_blank">Campus LIfe</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>OUR CAMPUS</h4>
+                <ul class="links">
+                    <li><a href="https://vit.ac.in/" target="_blank">VIT VELLORE</a></li>
+                    <li><a href="https://chennai.vit.ac.in/" target="_blank">VIT CHENNAI</a></li>
+                    <li><a href="https://vitap.ac.in/" target="_blank">VIT AP</a></li>
+                    <li><a href="https://vitbhopal.ac.in/" target="_blank">VIT BHOPAL</a></li>
+                    <li><a href="https://vitbangalore.in/" target="_blank">VIT BANGALORE</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4> Leave a Message</h4><br>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <a href="https://instagram.com/vitap.university?igshid=MzRlODBiNWFlZA=="><i
+                            class="fa-brands fa-instagram" target="_blank"></i></a>
+                    <a href="https://x.com/VITAPuniversity?t=1Yx0MaMwqUNyiUm2VcXp1w&s=08" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/vitap.university/" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/school/vitap-university/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@VITAP" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

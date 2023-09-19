@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>VIT-AP</title>
+    <style>
+        .footer {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            width: 100%;
+            background: #10182F;
+            border-radius: 6px;
+            top: 4900px;
+
+        }
+
+        .footer .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3.5rem;
+            padding: 60px;
+        }
+
+        .footer-row .footer-col h4 {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .footer-col .links {
+            margin-top: 20px;
+        }
+
+        .footer-col .links li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .footer-col .links li a {
+            text-decoration: none;
+            color: #bfbfbf;
+        }
+
+        .footer-col .links li a:hover {
+            color: #fff;
+        }
+
+        .footer-col p {
+            margin: 20px 0;
+            color: #bfbfbf;
+            max-width: 300px;
+        }
+
+        .footer-col form {
+            display: flex;
+            gap: 5px;
+        }
+
+        .footer-col input {
+            height: 40px;
+            border-radius: 6px;
+            background: none;
+            width: 100%;
+            outline: none;
+            border: 1px solid #7489C6;
+            caret-color: #fff;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .footer-col input::placeholder {
+            color: #ccc;
+        }
+
+        .footer-col form button {
+            background: #fff;
+            outline: none;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: 0.2s ease;
+        }
+
+        .footer-col form button:hover {
+            background: #cecccc;
+        }
+
+        .footer-col .icons {
+            display: flex;
+            margin-top: 30px;
+            gap: 30px;
+            cursor: pointer;
+        }
+
+        .footer-col .icons i {
+            color: #afb6c7;
+        }
+
+        .footer-col .icons i:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                transform: none;
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .footer .footer-row {
+                padding: 20px;
+                gap: 1rem;
+            }
+
+            .footer-col form {
+                display: block;
+            }
+
+            .footer-col form :where(input, button) {
+                width: 100%;
+            }
+
+            .footer-col form button {
+                margin: 10px 0 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+       <!----Header---->
+       <section class="course-header">
+        <nav>
+            <a href="Home.html"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png"
+                    alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Admissions.html">Admissions</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Affidavit.html">Affidavit</a></li>
+                                <li><a href="STARS.html">Stars</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Academics.html">Academics</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Alumni.html">Alumni</a></li>
+                                <li><a href="Academic Calendar.html">Academic Calendar</a></li>
+                                <li><a href="Engineering Clinics.html">Engineering Clinics</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Career Development Center.html">Career Development Center</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Super Dream Offer.html">Super Dream Offer</a></li>
+                                <li><a href="Dream Offers.html">Dream Offers</a></li>
+                                <li><a href="Internships.html">Internships</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus Life.html">Campus Life</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Anti-Ragging Committee.html">Anti-Ragging Committee</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Vison and Missions.html">Vison and Missions</a></li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="How to Reach Vit ap.html">How to Reach Vit AP</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="about-box">
+            <h1>Admission's</h1>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Courses We Offer</h1>
+        <p>VIT-AP offers distinctive education through its Undergraduate, Postgraduate and Ph.D Programmes. The
+            teaching-learning process at the institute prepares students for the future. They are involved in an active
+            process of applied learning with the help of experienced faculty who enable the students to channel their
+            talent and intellect to contribute towards the development and sustainability of society. With an emphasis
+            on innovation and applying technology to improve life, the institute offers the following programmes for
+            students at various levels.
+        </p>
+        <br><br>
+        <h2 style="text-align: center;">B.TECH</h2>
+        <p>The B.Tech. programme at VIT-AP is a prestigious skill-oriented professional programme. It aims to impart
+            technical knowledge along with application of technology. The curriculum is designed in such a way that
+            students are involved in developing new-age products and carry out various engineering projects. They work
+            in multi-disciplinary areas in order to meet the needs of the society. The knowledge acquired in the
+            programme enables the students to use modern engineering/software tools and equipment to solve real world
+            problems. The programme creates a platform for application oriented learning and offers great opportunities
+            for employment and entrepreneurship.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2017/11/computer-science-big-1.jpg"
+                    alt="B.Tech. CSE -(Computer Science and Engineering)">
+                <h3>B.Tech. CSE -(Computer Science and Engineering)</h3>
+                <p>
+                    The Computer Science and Engineering programme at VIT-AP is a unique blend of hardware and software,
+                    allowing students to gain knowledge about the concepts that enable many of today’s fundamental
+                    technologies, including Wireless Communication and the Internet of Things.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2020/07/B.Tech-Mechanical-1.jpg" alt="B.Tech. – Mechanical Engineering
+                    ">
+                <h3>B.Tech. – Mechanical Engineering
+
+                </h3>
+                <p>
+                    The undergraduate programme in Mechanical Engineering has a strong focus over the design of
+                    mechanical systems and hands-on experience. The programme includes in-depth study of thermal,
+                    design, manufacturing and automation courses at core curriculum level to design the systems relevant
+                    for industries.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="https://vitap.ac.in/wp-content/uploads/2017/11/mechanical-engineering-big.jpg"
+                    alt="B.Tech. ECE -(Electronics & Communication Engineering)">
+                <h3>B.Tech. ECE -(Electronics & Communication Engineering)</h3>
+                <p>Students are involved in a culture of experiencing life through various events on campus. They get to
+                    participate in popular weekly student community programmes, be a part of the music band or the dance
+                    troupe, or any other that interests them.</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h2 style="text-align: center;">M.TECH. PROGRAMME</h2>
+
+            <p>The M.Tech. programme at VIT-AP is a prestigious skill-oriented professional programme. It aims to impart
+                technical knowledge along with application of technology. The curriculum is designed in such a way that
+                students
+                are involved in developing new-age products and carry out various engineering projects. They work in
+                multi-disciplinary areas in order to meet the needs of the society. The knowledge acquired in the
+                programme
+                enables the students to use modern engineering/software tools and equipment to solve real world
+                problems. The
+                programme creates a platform for application oriented learning and offers great opportunities for
+                employment and
+                entrepreneurship.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="https://vitap.ac.in/wp-content/uploads/2021/08/M.Tech-VLSI.jpg" alt="M.Tech – VLSI">
+                    <h3>M.Tech – VLSI</h3>
+                    <p>Generate, transform, and advance knowledge in electronics and create competent engineers that
+                        will best serve mankind.To deliver dynamic technical manpower for meeting the current and future
+                        demands of industry and academia to address social and industrial problems.To provide the
+                        foundations and advance knowledge of electronics and communication to engineers, researchers and
+                        entrepreneurs for becoming leading contributors to real world problems.
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="https://www.cuchd.in/engineering/assets/images/vision-mission-img-cse.jpg"
+                        alt="Integrated M.Tech CSE in Collaboration with Virtusa">
+                    <h3>Integrated M.Tech CSE in Collaboration with Virtusa</h3>
+                    <p>Virtusa Collaborated M.Tech(CSE) aims to develop students excel in IT specialized areas such as
+                        Full Stack developer, Data Science, Networking etc. As Full Stack Developer it does not limit to
+                        only development but also imbibe Test Driven Development / Behavior Driven Development (TDD/BDD)
+                        principles to build quality applications, specifically using various Cloud and DevOps tools.
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="https://vitap.ac.in/wp-content/uploads/2017/11/ph-d.jpg" alt="M.Tech. -(5 year Integrated) Software Engineering
+                        ">
+                    <h3>M.Tech. -(5 year Integrated) Software Engineering
+                    </h3>
+                    <p>The Integrated M.Tech. (Software Engineering) programme is a 5 year integrated course. It is
+                        specifically designed to meet the needs of IT industry in the areas of software engineering
+                        design and implementation.The initial level courses provide students with a core foundation in
+                        programming, mathematical reasoning, physics and circuit design. </p>
+                </div>
+            </div>
+    </section>
+    <section class="facilities">
+        <h2 style="text-align: center;">M.Sc.</h2>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="https://vitap.ac.in/wp-content/uploads/2022/07/M.Sc-1.jpg" alt="M.Sc. Data Science
+                    ">
+                    <h3>M.Sc. Data Science
+                    </h3>
+                    <p>Many industry experts and popular business publications have attested that Data in the 21st
+                        Century is, like Oil in the 18th Century, the most valuable resource in the world. Hence, the
+                        smooth functionality of everything from the government to local companies depends on how we
+                        understand data, without which the progress would halt. For those who realize the fundamental
+                        value of Data and learn to extract and use it, there will be huge rewards in the current
+                        data-driven economy.
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="https://vitap.ac.in/wp-content/uploads/2022/08/Physics-Dept.jpg" alt="M.Sc. Physics
+                        ">
+                    <h3>M.Sc. Physics
+                    </h3>
+                    <p>The M.Sc. Physics programme aims to develop an application and technology oriented learning,
+                        along with an in-depth training of the core classical areas of Physics. The programme is
+                        designed with a combination of theoretical, experimental, and project-based learning components
+                        of Physics to enhance the passion for the subject, a deep understanding on various
+                        interdisciplinary areas, and a desire to contribute for the development of new technologies.
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="https://vitap.ac.in/wp-content/uploads/2021/01/Chemistry-Dept.jpg" alt="M.Sc. Chemistry
+
+                        ">
+                    <h3>M.Sc. Chemistry
+
+                    </h3>
+                    <p>The two-year M.Sc. Chemistry in collaboration with Mitsui Kinzoku Components India (MKCI) offered
+                        by VIT-AP University provides students ample opportunities to choose courses from a broad
+                        spectrum of cutting-edge areas in addition to fundamentals of organic, inorganic, physical,
+                        analytical and computational chemistry. Sessions on improving technical skills, scientific
+                        writing, oral presentations and research expertise have been incorporated in the curriculum.</p>
+                </div>
+            </div>
+    </section>
+    <section class="facilities">
+        <h2>Law</h2>
+        <p>VIT-AP School of Law (VSL) established as part of VIT-AP University, near Vijayawada, VSL is established to
+            impart quality legal education with a robust curriculum that prepares students for future legal challenges.
+            The main objective is to promote global legal professionals with a passion for the ideals of social justice.
+            VSL has impressive infrastructure with a wide range of facilities. Law Students can have an opportunity to
+            work with and learn from engineering faculty while studying law, particularly issues relating to Law and
+            Technology, Cyber Security Law, Blockchain Technology, Machine learning, Artificial Intelligence, and Data
+            protection. “With our moot court, legal aid clinics, human rights clinic, digital and data clinics,
+            environmental clinics and intellectual property rights clinics, our students get an opportunity to work with
+            experienced faculty and practicing advocates and judges in solving real-time legal problems and providing
+            solutions as well.
+        </p>
+    </section>
+    <section class="facilities">
+        <h2>Ph.D.
+        </h2>
+        <p>The Ph.D. programme at VIT-AP admits bright students to carry out research in engineering, basic sciences,
+            humanities and management disciplines. The major areas of research are Computer Science and Engineering,
+            Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Mathematics,
+            Physics, Chemistry, Management – HR, Marketing, Economics, Law, English etc.
+        </p>
+    </section>
+    <section class="facilities">
+        <h2>VIT-AP SCHOOL OF BUSINESS (VSB)
+
+
+        </h2>
+        <p>The VIT-AP School of Business (VSB) is launched with the vision of preparing the future leaders of India to
+            face the emerging crises-opportunities. With management knowledge and leadership being integral parts of the
+            modern age, VSB programmes are designed to enhance leadership competencies, social and ecological
+            sensitivity and systems thinking of the participants. The meticulously designed programmes place a special
+            emphasis on incorporating technology into the curriculum with an objective of enabling students to be
+            effective decision-makers under techno-socio-economic uncertainty. At VSB, students are motivated and
+            equipped to become leaders in order to play a critical role in the evolution of new business models and
+            organization forms, alternate governance structures in business, government, education and health amongst
+            others.
+        </p>
+    </section>
+    <section class="facilities">
+        <h2>Dual Degree Programme- B.Sc.-M.Sc. Data Science</h2><br>
+        <img src="https://vitap.ac.in/wp-content/uploads/2022/07/B.Sc-1.jpg" alt="Dual Degree Programme- B.Sc.-M.Sc. Data Science
+        " width="500px" height="300px"><br>
+        <p>This programme encompasses the areas such as developing accurate and efficient numerical methods for solving physical or biological models, analysis of numerical approximations to differential and integral equations, developing computational tools to better understand data and structure, etc.</p><br>
+        <p>Many industry experts and popular business publications have attested that Data in the 21st Century is, like Oil in the 18th Century, the most valuable resource in the world. Hence, the smooth functionality of everything from the government to local companies depend on how we understand data, without which the progress would halt. For those who realize the fundamental value of Data and learn to extract and use it, there will be huge rewards in the current data-driven economy.</p>
+    </section>
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4> VIT CONNECT</h4>
+                <ul class="links">
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Login</a></li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Parent Login</a>
+                    </li>
+                    <li><a href="https://vtop2.vitap.ac.in/vtop/initialProcess" target="_blank">V-TOP Alumni Login
+                        </a></li>
+                    <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="How to Reach Vit ap.html" target="_blank">How to Reach Vit ap</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Qick Links</h4>
+                <ul class="links">
+                    <li><a href="Career Development Center.html" target="_blank">Career Development Center</a></li>
+                    <li><a href="Admissions.html" target="_blank">Admissions</a></li>
+                    <li><a href="Alumni.html" target="_blank">Alumni</a></li>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Campus LIfe.html" target="_blank">Campus LIfe</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>OUR CAMPUS</h4>
+                <ul class="links">
+                    <li><a href="https://vit.ac.in/" target="_blank">VIT VELLORE</a></li>
+                    <li><a href="https://chennai.vit.ac.in/" target="_blank">VIT CHENNAI</a></li>
+                    <li><a href="https://vitap.ac.in/" target="_blank">VIT AP</a></li>
+                    <li><a href="https://vitbhopal.ac.in/" target="_blank">VIT BHOPAL</a></li>
+                    <li><a href="https://vitbangalore.in/" target="_blank">VIT BANGALORE</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4> Leave a Message</h4><br>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <a href="https://instagram.com/vitap.university?igshid=MzRlODBiNWFlZA=="><i
+                            class="fa-brands fa-instagram" target="_blank"></i></a>
+                    <a href="https://x.com/VITAPuniversity?t=1Yx0MaMwqUNyiUm2VcXp1w&s=08" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/vitap.university/" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/school/vitap-university/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@VITAP" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
